@@ -41,3 +41,6 @@ h1::before {
 h1:first-child {
  text-align: center;
 } 
+.challenge2 {
+  padding-left:10%;
+}
