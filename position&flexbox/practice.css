@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.box{
+  width: 100px;
+  height: 100px;
+}
+.red{
+  background-color: red;
+}
+.yellow{
+  background-color: yellow;
+}
+.blue{
+  background-color: blue;
+}
+.locate{
+  position: absolute;
+  left: 30px; top: 30px;
+}
+.mother{
+  border: 1px solid red;
+  height: 100vh; /* vh= view height*/
+  display: flex;
+  /*justify-content: center;  flex-start, center, flex-end, space-between, space-around 등의 값이 있음)*/
+  align-items: center  ; /* 부모 요소를 기준으로 부모 요소의 범위 밖은 컨트롤 할 수 없다. 따라서 부모요소의 크기를 컨트롤 해주면 된다. 그리고 space 계열은 사용 할 수 없다.*/
+  /*flex-direction: column (가로로 정렬된 요소를 세로로 바꾸고 justify-content는 세로로 align-items는 가로방향으로 바뀐다.) */
+}
+.children{
+  background-color: bisque;
+  width: 100px; height: 100px;
+
+}
